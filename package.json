@@ -1,0 +1,43 @@
+{
+	"name": "@opi_pib/ds",
+	"version": "1.0.0",
+	"description": "Design system OPI PIB",
+	"main": "src/index.css",
+	"type": "module",
+	"files": [
+		"src",
+		"LICENSE",
+		"README.md"
+	],
+	"exports": {
+		".": "./src/index.css",
+		"./css": "./src/css.css"
+	},
+	"engines": {
+		"node": ">=24.0.0",
+		"npm": ">=10.8.0"
+	},
+	"scripts": {
+		"prepare": "husky",
+		"test": "node --test tests/**/*.spec.mjs"
+	},
+	"lint-staged": {
+		"*.css": "stylelint src/**/*.css --fix",
+		"*": "prettier -u -w"
+	},
+	"author": "Dawid Lubowiecki",
+	"license": "MIT",
+	"prettier": "@opi_pib/prettier-config-base",
+	"devDependencies": {
+		"@opi_pib/eslint-config-base": "^9.4.7",
+		"@opi_pib/prettier-config-base": "^1.0.0",
+		"@opi_pib/stylelint-config-base": "^1.0.0",
+		"husky": "^9.0.0",
+		"lint-staged": "^16.0.0"
+	},
+	"homepage": "https://github.com/OPI-PIB/ds#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/OPI-PIB/ds.git"
+	}
+}
