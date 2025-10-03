@@ -1,4 +1,4 @@
-import { css } from '@opi_pib/stylelint-config-base'; // or scss
+import { css } from '@opi_pib/stylelint-config-base';
 
 /** @type {import('stylelint').Config} */
 export default css;
