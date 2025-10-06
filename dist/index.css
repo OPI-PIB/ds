@@ -1,6 +1,7 @@
 /*! tailwindcss v4.1.14 | MIT License | https://tailwindcss.com */
 :root,
 :host {
+	--breakpoint-md: 48rem;
 	--color-primary-50: oklch(97% 0.014 254.604deg);
 	--color-primary-100: oklch(93.2% 0.032 255.585deg);
 	--color-primary-200: oklch(88.2% 0.059 254.128deg);
@@ -33,4 +34,92 @@
 	--color-error-light: oklch(80.97% 0.1061 11.64deg);
 	--color-black: var(--color-neutral-950);
 	--color-white: #fff;
+	--font:
+		'Open Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+		'Noto Color Emoji';
+	--font-weight-normal: 400;
+	--font-weight-medium: 500;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+	--text-d1: var(--text-d1-size);
+	--text-d1--line-height: 120%;
+	--text-d1--letter-spacing: var(--text-d1-letter-spacing);
+	--text-d2: var(--text-d2-size);
+	--text-d2--line-height: 120%;
+	--text-d2--letter-spacing: var(--text-d2-letter-spacing);
+	--text-d3: var(--text-d3-size);
+	--text-d3--line-height: 120%;
+	--text-d3--letter-spacing: var(--text-d3-letter-spacing);
+	--text-h1: var(--text-h1-size);
+	--text-h1--line-height: 125%;
+	--text-h2: var(--text-h2-size);
+	--text-h2--line-height: 135%;
+	--text-h3: var(--text-h3-size);
+	--text-h3--line-height: 135%;
+	--text-h4: var(--text-h4-size);
+	--text-h4--line-height: 140%;
+	--text-h5: var(--text-h5-size);
+	--text-h5--line-height: 150%;
+	--text-h6: var(--text-h6-size);
+	--text-h6--line-height: 150%;
+	--text-b1: var(--text-b1-size);
+	--text-b1--line-height: 140%;
+	--text-b2: var(--text-b2-size);
+	--text-b2--line-height: 150%;
+	--text-b3: var(--text-b3-size);
+	--text-b3--line-height: 150%;
+	--text-c: var(--text-c-size);
+	--text-c--line-height: 150%;
+	--text-l1: var(--text-l1-size);
+	--text-l1--line-height: 140%;
+	--text-l2: var(--text-l2-size);
+	--text-l2--line-height: 150%;
+	--text-l3: var(--text-l3-size);
+	--text-l3--line-height: 150%;
+	--text-l4: var(--text-l4-size);
+	--text-l4--line-height: 150%;
+	--text-t1: var(--text-t1-size);
+	--text-t1--line-height: 150%;
+	--text-t2: var(--text-t2-size);
+	--text-t2--line-height: 150%;
+}
+:root,
+:host {
+	--text-d1-size: 3rem;
+	--text-d1-letter-spacing: -0.03rem;
+	--text-d2-size: 2.5rem;
+	--text-d2-letter-spacing: -0.025rem;
+	--text-d3-size: 2.25rem;
+	--text-d3-letter-spacing: -0.0225rem;
+	--text-h1-size: 2rem;
+	--text-h2-size: 1.5rem;
+	--text-h3-size: 1.25rem;
+	--text-h4-size: 1.125rem;
+	--text-h5-size: 1rem;
+	--text-h6-size: 0.875rem;
+	--text-b1-size: 1.25rem;
+	--text-b2-size: 1rem;
+	--text-b3-size: 0.875rem;
+	--text-c-size: 0.75rem;
+	--text-l1-size: 1.25rem;
+	--text-l2-size: 1rem;
+	--text-l3-size: 0.875rem;
+	--text-l4-size: 0.75rem;
+	--text-t1-size: 1rem;
+	--text-t2-size: 0.875rem;
+}
+@media (width > 48rem) {
+	:root,
+	:host {
+		--text-d1-size: 4.5rem;
+		--text-d1-letter-spacing: -0.045rem;
+		--text-d2-size: 3.5rem;
+		--text-d2-letter-spacing: -0.035rem;
+		--text-d3-size: 3rem;
+		--text-d3-letter-spacing: -0.03rem;
+		--text-h1-size: 2.5rem;
+		--text-h2-size: 2rem;
+		--text-h3-size: 1.5rem;
+		--text-h4-size: 1.25rem;
+	}
 }
