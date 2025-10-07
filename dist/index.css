@@ -117,38 +117,6 @@
 	--text-b3-regular: var(--text-b3-size);
 	--text-b3-regular--line-height: 150%;
 	--text-b3-regular--font-weight: var(--font-weight-regular);
-	--text-c-medium: var(--text-c-size);
-	--text-c-medium--line-height: 150%;
-	--text-c-medium--font-weight: var(--font-weight-medium);
-	--text-l1-medium: var(--text-l1-size);
-	--text-l1-medium--line-height: 140%;
-	--text-l1-medium--font-weight: var(--font-weight-medium);
-	--text-l1-medium--text-decoration-line: underline;
-	--text-l1-medium--text-decoration-skip-ink: auto;
-	--text-l1-medium--text-decoration-style: solid;
-	--text-l1-medium--text-underline-offset: 25%;
-	--text-l1-medium--text-underline-position: from-font;
-	--text-l1-regular: var(--text-l1-size);
-	--text-l1-regular--line-height: 140%;
-	--text-l1-regular--font-weight: var(--font-weight-regular);
-	--text-l2-medium: var(--text-l2-size);
-	--text-l2-medium--line-height: 150%;
-	--text-l2-medium--font-weight: var(--font-weight-medium);
-	--text-l2-regular: var(--text-l2-size);
-	--text-l2-regular--line-height: 150%;
-	--text-l2-regular--font-weight: var(--font-weight-regular);
-	--text-l3-semibold: var(--text-l3-size);
-	--text-l3-semibold--line-height: 150%;
-	--text-l3-semibold--font-weight: var(--font-weight-semibold);
-	--text-l3-medium: var(--text-l3-size);
-	--text-l3-medium--line-height: 150%;
-	--text-l3-medium--font-weight: var(--font-weight-medium);
-	--text-l3-regular: var(--text-l3-size);
-	--text-l3-regular--line-height: 150%;
-	--text-l3-regular--font-weight: var(--font-weight-regular);
-	--text-l4-medium: var(--text-l4-size);
-	--text-l4-medium--line-height: 150%;
-	--text-l4-medium--font-weight: var(--font-weight-medium);
 	--text-t1-medium: var(--text-t1-size);
 	--text-t1-medium--line-height: 150%;
 	--text-t1-medium--font-weight: var(--font-weight-medium);
@@ -182,11 +150,6 @@
 	--text-b1-size: 1.25rem;
 	--text-b2-size: 1rem;
 	--text-b3-size: 0.875rem;
-	--text-c-size: 0.75rem;
-	--text-l1-size: 1.25rem;
-	--text-l2-size: 1rem;
-	--text-l3-size: 0.875rem;
-	--text-l4-size: 0.75rem;
 	--text-t1-size: 1rem;
 	--text-t2-size: 0.875rem;
 	--font-variant-numeric: lining-nums tabular-nums;
@@ -206,50 +169,55 @@
 		--text-h4-size: 1.25rem;
 	}
 }
-@layer components {
-	.text-l1-medium,
-	.text-l1-regular,
-	.text-l2-medium,
-	.text-l2-regular,
-	.text-l3-semibold,
-	.text-l3-medium,
-	.text-l3-regular,
-	.text-l4-medium {
-		text-decoration-line: underline;
-		text-decoration-skip-ink: auto;
-		text-decoration-style: solid;
-		text-underline-offset: 25%;
-		text-underline-position: from-font;
-	}
-	.text-l1-medium {
-		text-decoration-thickness: 9%;
-	}
-	.text-l1-regular {
-		text-decoration-thickness: 8%;
-	}
-	.text-l2-medium {
-		text-decoration-thickness: 9%;
-	}
-	.text-l2-regular {
-		text-decoration-thickness: 8%;
-	}
-	.text-l3-semibold {
-		text-decoration-thickness: 10%;
-	}
-	.text-l3-medium {
-		text-decoration-thickness: 9%;
-	}
-	.text-l3-regular {
-		text-decoration-thickness: 8%;
-	}
-	.text-l4-medium {
-		text-decoration-thickness: 9%;
-	}
-	.text-t1-medium,
-	.text-t1-regular,
-	.text-t2-semibold,
-	.text-t2-medium,
-	.text-t2-regular {
-		font-variant-numeric: lining-nums tabular-nums;
-	}
+.text-t1-medium,
+.text-t1-regular,
+.text-t2-semibold,
+.text-t2-medium,
+.text-t2-regular {
+	font-variant-numeric: lining-nums tabular-nums;
+}
+.text-b1-medium {
+	text-decoration-thickness: 9%;
+}
+.text-b1-regular {
+	text-decoration-thickness: 8%;
+}
+.text-b2-medium {
+	text-decoration-thickness: 9%;
+}
+.text-b2-regular {
+	text-decoration-thickness: 8%;
+}
+.text-b3-semibold {
+	text-decoration-thickness: 10%;
+}
+.text-b3-medium {
+	text-decoration-thickness: 9%;
+}
+.text-b3-regular {
+	text-decoration-thickness: 8%;
+}
+.text-t1-medium {
+	text-decoration-thickness: 9%;
+}
+.text-t1-regular {
+	text-decoration-thickness: 8%;
+}
+.text-t2-semibold {
+	text-decoration-thickness: 10%;
+}
+.text-t2-medium {
+	text-decoration-thickness: 9%;
+}
+.text-t2-regular {
+	text-decoration-thickness: 8%;
+}
+u,
+ins,
+a {
+	text-decoration-line: underline;
+	text-decoration-skip-ink: auto;
+	text-decoration-style: solid;
+	text-underline-offset: 25%;
+	text-underline-position: from-font;
 }

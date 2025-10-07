@@ -88,42 +88,6 @@
 	@apply text-b3-regular;
 }
 
-.text-c-medium {
-	@apply text-c-medium;
-}
-
-.text-l1-medium {
-	@apply text-l1-medium;
-}
-
-.text-l1-regular {
-	@apply text-l1-regular;
-}
-
-.text-l2-medium {
-	@apply text-l2-medium;
-}
-
-.text-l2-regular {
-	@apply text-l2-regular;
-}
-
-.text-l3-semibold {
-	@apply text-l3-semibold;
-}
-
-.text-l3-medium {
-	@apply text-l3-medium;
-}
-
-.text-l3-regular {
-	@apply text-l3-regular;
-}
-
-.text-l4-medium {
-	@apply text-l4-medium;
-}
-
 .text-t1-medium {
 	@apply text-t1-medium;
 }
