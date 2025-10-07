@@ -24,6 +24,10 @@
 	--color-neutral-800: oklch(27.4% 0.006 286.033deg);
 	--color-neutral-900: oklch(21% 0.006 285.885deg);
 	--color-neutral-950: oklch(14.1% 0.005 285.823deg);
+	--color-bg-102: oklch(93.71% 0.0042 271.37deg);
+	--color-bg-104: oklch(95.19% 0.0029 264.54deg);
+	--color-bg-106: oklch(96.97% 0.0017 247.84deg);
+	--color-bg-108: oklch(98.43% 0.0011 197.14deg);
 	--color-info: oklch(39.87% 0.145 266.81deg);
 	--color-info-light: oklch(88.23% 0.0571 254.13deg);
 	--color-success: oklch(42.62% 0.0827 170.31deg);
@@ -119,6 +123,11 @@
 	--text-l1-medium: var(--text-l1-size);
 	--text-l1-medium--line-height: 140%;
 	--text-l1-medium--font-weight: var(--font-weight-medium);
+	--text-l1-medium--text-decoration-line: underline;
+	--text-l1-medium--text-decoration-skip-ink: auto;
+	--text-l1-medium--text-decoration-style: solid;
+	--text-l1-medium--text-underline-offset: 25%;
+	--text-l1-medium--text-underline-position: from-font;
 	--text-l1-regular: var(--text-l1-size);
 	--text-l1-regular--line-height: 140%;
 	--text-l1-regular--font-weight: var(--font-weight-regular);
@@ -180,6 +189,7 @@
 	--text-l4-size: 0.75rem;
 	--text-t1-size: 1rem;
 	--text-t2-size: 0.875rem;
+	--font-variant-numeric: lining-nums tabular-nums;
 }
 @media (width > 48rem) {
 	:root,
@@ -194,6 +204,53 @@
 		--text-h2-size: 2rem;
 		--text-h3-size: 1.5rem;
 		--text-h4-size: 1.25rem;
+	}
+}
+@layer components {
+	.text-l1-medium,
+	.text-l1-regular,
+	.text-l2-medium,
+	.text-l2-regular,
+	.text-l3-semibold,
+	.text-l3-medium,
+	.text-l3-regular,
+	.text-l4-medium {
+		text-decoration-line: underline;
+		text-decoration-skip-ink: auto;
+		text-decoration-style: solid;
+		text-underline-offset: 25%;
+		text-underline-position: from-font;
+	}
+	.text-l1-medium {
+		text-decoration-thickness: 9%;
+	}
+	.text-l1-regular {
+		text-decoration-thickness: 8%;
+	}
+	.text-l2-medium {
+		text-decoration-thickness: 9%;
+	}
+	.text-l2-regular {
+		text-decoration-thickness: 8%;
+	}
+	.text-l3-semibold {
+		text-decoration-thickness: 10%;
+	}
+	.text-l3-medium {
+		text-decoration-thickness: 9%;
+	}
+	.text-l3-regular {
+		text-decoration-thickness: 8%;
+	}
+	.text-l4-medium {
+		text-decoration-thickness: 9%;
+	}
+	.text-t1-medium,
+	.text-t1-regular,
+	.text-t2-semibold,
+	.text-t2-medium,
+	.text-t2-regular {
+		font-variant-numeric: lining-nums tabular-nums;
 	}
 }
 .text-d1-medium {

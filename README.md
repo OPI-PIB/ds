@@ -4,9 +4,17 @@
 
 https://oklch.com/
 
-## Font
+## Generator palet
+
+https://uicolors.app/generate
+
+## Install
+
+### Font
 
 https://fonts.google.com/specimen/Open+Sans
+
+index.html
 
 ```
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,3 +24,15 @@ https://fonts.google.com/specimen/Open+Sans
   rel="stylesheet"
 />
 ```
+
+style.css
+
+```
+body {
+	font-family: var(--font-sans);
+}
+```
+
+### CSS
+
+### Tailwind
