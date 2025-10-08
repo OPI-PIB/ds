@@ -1,7 +1,9 @@
 /*! tailwindcss v4.1.14 | MIT License | https://tailwindcss.com */
 :root,
 :host {
-	--breakpoint-md: 48rem;
+	--breakpoint-tablet: 45rem;
+	--breakpoint-laptop: 75rem;
+	--breakpoint-full: 90rem;
 	--color-primary-50: oklch(97% 0.014 254.604deg);
 	--color-primary-100: oklch(93.2% 0.032 255.585deg);
 	--color-primary-200: oklch(88.2% 0.059 254.128deg);
@@ -154,7 +156,7 @@
 	--text-t2-size: 0.875rem;
 	--font-variant-numeric: lining-nums tabular-nums;
 }
-@media (width > 48rem) {
+@media (width > 45rem) {
 	:root,
 	:host {
 		--text-d1-size: 4.5rem;
@@ -213,7 +215,6 @@
 	text-decoration-thickness: 8%;
 }
 u,
-ins,
 a {
 	text-decoration-line: underline;
 	text-decoration-skip-ink: auto;

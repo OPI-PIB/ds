@@ -1,5 +1,9 @@
 @import './index.css';
 
+.container {
+	@apply container;
+}
+
 .text-d1-medium {
 	@apply text-d1-medium;
 }
