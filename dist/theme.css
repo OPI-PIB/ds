@@ -1,6 +1,8 @@
 /*! tailwindcss v4.1.14 | MIT License | https://tailwindcss.com */
 :root,
 :host {
+	--spacing: 0.25rem;
+	--breakpoint-mobile: 23.375rem;
 	--breakpoint-tablet: 45rem;
 	--breakpoint-laptop: 75rem;
 	--breakpoint-full: 90rem;
@@ -135,6 +137,16 @@
 	--text-t2-regular--line-height: 150%;
 	--text-t2-regular--font-weight: var(--font-weight-regular);
 }
+.container {
+	margin-inline: auto;
+	gap: calc(var(--spacing) * 4);
+	@media (width >= 45rem) {
+		gap: calc(var(--spacing) * 5);
+	}
+	@media (width >= 75rem) {
+		gap: calc(var(--spacing) * 6);
+	}
+}
 :root,
 :host {
 	--text-d1-size: 3rem;
@@ -224,6 +236,9 @@ a {
 }
 .container {
 	width: 100%;
+	@media (width >= 23.375rem) {
+		max-width: 23.375rem;
+	}
 	@media (width >= 45rem) {
 		max-width: 45rem;
 	}
