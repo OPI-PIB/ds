@@ -210,14 +210,6 @@
 	--text-t2-regular--font-weight: var(--font-weight-regular);
 }
 
-.text-t1-medium,
-.text-t1-regular,
-.text-t2-semibold,
-.text-t2-medium,
-.text-t2-regular {
-	font-variant-numeric: lining-nums tabular-nums;
-}
-
 .text-b1-medium {
 	text-decoration-thickness: 9%;
 }
@@ -247,22 +239,27 @@
 }
 
 .text-t1-medium {
+	font-variant-numeric: var(--font-variant-numeric);
 	text-decoration-thickness: 9%;
 }
 
 .text-t1-regular {
+	font-variant-numeric: var(--font-variant-numeric);
 	text-decoration-thickness: 8%;
 }
 
 .text-t2-semibold {
+	font-variant-numeric: var(--font-variant-numeric);
 	text-decoration-thickness: 10%;
 }
 
 .text-t2-medium {
+	font-variant-numeric: var(--font-variant-numeric);
 	text-decoration-thickness: 9%;
 }
 
 .text-t2-regular {
+	font-variant-numeric: var(--font-variant-numeric);
 	text-decoration-thickness: 8%;
 }
 
@@ -273,11 +270,4 @@ a {
 	text-decoration-style: solid;
 	text-underline-offset: 25%;
 	text-underline-position: from-font;
-}
-
-@layer components {
-	.aaa {
-		color: red;
-		width: 500px;
-	}
 }
