@@ -54,30 +54,55 @@
 	--font-weight-medium: 500;
 	--font-weight-semibold: 600;
 	--font-weight-bold: 700;
+	--text-d1-medium: var(--text-d1--size);
+	--text-d1-semibold: var(--text-d1--size);
+	--text-d2-medium: var(--text-d2--size);
+	--text-d2-semibold: var(--text-d2--size);
+	--text-d3-medium: var(--text-d3--size);
+	--text-d3-semibold: var(--text-d3--size);
+	--text-h1-medium: var(--text-h1--size);
+	--text-h1-semibold: var(--text-h1--size);
+	--text-h2-semibold: var(--text-h2--size);
+	--text-h2-bold: var(--text-h2--size);
+	--text-h3-semibold: var(--text-h3--size);
+	--text-h3-bold: var(--text-h3--size);
+	--text-h4-bold: var(--text-h4--size);
+	--text-h5-bold: var(--text-h5--size);
+	--text-h6-bold: var(--text-h6--size);
+	--text-b1-medium: var(--text-b1--size);
+	--text-b1-regular: var(--text-b1--size);
+	--text-b2-medium: var(--text-b2--size);
+	--text-b2-regular: var(--text-b2--size);
+	--text-b3-semibold: var(--text-b3--size);
+	--text-b3-medium: var(--text-b3--size);
+	--text-b3-regular: var(--text-b3--size);
+	--text-t1-medium: var(--text-t1--size);
+	--text-t1-regular: var(--text-t1--size);
+	--text-t2-semibold: var(--text-t2--size);
+	--text-t2-medium: var(--text-t2--size);
+	--text-t2-regular: var(--text-t2--size);
 }
-@layer utilities {
-	.container {
-		width: 100%;
-		@media (width >= 23.375rem) {
-			max-width: 23.375rem;
-		}
-		@media (width >= 45rem) {
-			max-width: 45rem;
-		}
-		@media (width >= 75rem) {
-			max-width: 75rem;
-		}
-		@media (width >= 90rem) {
-			max-width: 90rem;
-		}
-		margin-inline: auto;
-		gap: calc(var(--spacing) * 4);
-		@media (width >= 45rem) {
-			gap: calc(var(--spacing) * 5);
-		}
-		@media (width >= 75rem) {
-			gap: calc(var(--spacing) * 6);
-		}
+.container {
+	width: 100%;
+	@media (width >= 23.375rem) {
+		max-width: 23.375rem;
+	}
+	@media (width >= 45rem) {
+		max-width: 45rem;
+	}
+	@media (width >= 75rem) {
+		max-width: 75rem;
+	}
+	@media (width >= 90rem) {
+		max-width: 90rem;
+	}
+	margin-inline: auto;
+	gap: calc(var(--spacing) * 4);
+	@media (width >= 45rem) {
+		gap: calc(var(--spacing) * 5);
+	}
+	@media (width >= 75rem) {
+		gap: calc(var(--spacing) * 6);
 	}
 }
 :root,
@@ -137,7 +162,7 @@ a {
 	text-underline-offset: 25%;
 	text-underline-position: from-font;
 }
-@layer utilities {
+@layer fonts {
 	.text-d1-medium {
 		font-size: var(--text-d1--size);
 		font-weight: var(--font-weight-medium);
