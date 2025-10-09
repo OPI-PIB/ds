@@ -1,8 +1,8 @@
 {
 	"name": "@opi_pib/ds",
-	"version": "1.0.12",
+	"version": "1.0.13",
 	"description": "Design system OPI PIB",
-	"style": "dist/theme.css",
+	"style": "dist/index.css",
 	"files": [
 		"dist",
 		"src",
@@ -10,8 +10,8 @@
 		"README.md"
 	],
 	"exports": {
-		".": "./dist/theme.css",
-		"./tailwind": "./src/tailwind.css"
+		".": "./dist/index.css",
+		"./tailwind": "./src/index.css"
 	},
 	"engines": {
 		"node": ">=24.0.0",
@@ -20,7 +20,7 @@
 	"scripts": {
 		"prepare": "husky",
 		"test": "node --test tests/**/*.spec.mjs",
-		"build": "tailwindcss -i=src/theme.css -o=dist/theme.css"
+		"build": "tailwindcss -i=src/index.css -o=dist/index.css"
 	},
 	"lint-staged": {
 		"*.css": "stylelint src/**/*.css --fix",

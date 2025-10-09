@@ -18,7 +18,7 @@ style.css
 @layer tw, ds;
 
 @import 'tailwindcss' layer(tw);
-@import '@opi_pib/ds/theme' layer(ds);
+@import '@opi_pib/ds' layer(ds);
 ```
 
 ### Tailwind
