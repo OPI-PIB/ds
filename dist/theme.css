@@ -6,6 +6,10 @@
 	--breakpoint-tablet: 45rem;
 	--breakpoint-laptop: 75rem;
 	--breakpoint-full: 90rem;
+	--container-mobile: 23.375rem;
+	--container-tablet: 45rem;
+	--container-laptop: 75rem;
+	--container-full: 90rem;
 	--color-primary-50: oklch(97% 0.014 254.604deg);
 	--color-primary-100: oklch(93.2% 0.032 255.585deg);
 	--color-primary-200: oklch(88.2% 0.059 254.128deg);
@@ -233,6 +237,12 @@ a {
 	text-decoration-style: solid;
 	text-underline-offset: 25%;
 	text-underline-position: from-font;
+}
+@layer components {
+	.aaa {
+		color: red;
+		width: 500px;
+	}
 }
 .container {
 	width: 100%;
