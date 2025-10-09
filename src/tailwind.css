@@ -13,6 +13,17 @@
 	--breakpoint-full: 90rem;
 }
 
+@theme {
+	--container-*: initial;
+}
+
+@theme static {
+	--container-mobile: 23.375rem;
+	--container-tablet: 45rem;
+	--container-laptop: 75rem;
+	--container-full: 90rem;
+}
+
 .container {
 	@apply tablet:gap-5 laptop:gap-6 gap-4 mx-auto;
 }
@@ -262,4 +273,11 @@ a {
 	text-decoration-style: solid;
 	text-underline-offset: 25%;
 	text-underline-position: from-font;
+}
+
+@layer components {
+	.aaa {
+		color: red;
+		width: 500px;
+	}
 }
