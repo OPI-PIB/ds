@@ -10,6 +10,28 @@ https://uicolors.app/generate
 
 ## Install
 
+### CSS
+
+style.css
+
+```
+@layer tw, ds;
+
+@import 'tailwindcss' layer(tw);
+@import '@opi_pib/ds/theme' layer(ds);
+```
+
+### Tailwind
+
+style.css
+
+```
+@layer tw, ds;
+
+@import 'tailwindcss' layer(tw);
+@import '@opi_pib/ds/tailwind' layer(ds);
+```
+
 ### Font
 
 https://fonts.google.com/specimen/Open+Sans
@@ -32,7 +54,3 @@ body {
 	font-family: var(--font-sans);
 }
 ```
-
-### CSS
-
-### Tailwind
