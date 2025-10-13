@@ -22,8 +22,8 @@ writeFileSync(`fonts/${fontName}.woff2`, result.woff2);
 const cssContent = `
 @font-face {
   font-family: "${fontName}";
-  src: url("fonts/${fontName}.woff2") format("woff2"),
-       url("fonts/${fontName}.woff") format("woff");
+  src: url("${fontName}.woff2") format("woff2"),
+       url("${fontName}.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
