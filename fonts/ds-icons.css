@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'ds-icons';
+	src:
+		url('fonts/ds-icons.woff2') format('woff2'),
+		url('fonts/ds-icons.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^='ds-icon-'],
+[class*=' ds-icon-'] {
+	font-family: 'ds-icons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	display: inline-block;
+}
+.ds-icon-close::before {
+	content: '\e001';
+}
+.ds-icon-home::before {
+	content: '\e002';
+}
+.ds-icon-search::before {
+	content: '\e003';
+}
+.ds-icon-settings::before {
+	content: '\e004';
+}
