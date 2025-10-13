@@ -45,7 +45,7 @@ index.html
   href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400..700;1,400..700&display=swap"
   rel="stylesheet"
 />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@opi_pib/ds/fonts/ds-icons.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@opi_pib/ds/icons/ds-icons.css" />
 ```
 
 style.css
@@ -61,5 +61,11 @@ body {
 file.html
 
 ```
-<i class="ds-icon-calendar" aria-label="Kalendarz"></i>
+<i class="ds-icon-edit" aria-label="Edytuj"></i>
+```
+
+or
+
+```
+<i class="ds-img-edit" aria-label="Edytuj"></i>
 ```
