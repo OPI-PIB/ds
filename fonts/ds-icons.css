@@ -11,22 +11,24 @@
 [class*=' ds-icon-'] {
 	font-family: 'ds-icons' !important;
 	speak: none;
+	display: var(--ds-icon-display, inline-block);
+	font-feature-settings: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	font-style: normal;
-	font-weight: normal;
+	font-synthesis: none;
 	font-variant: normal;
-	text-transform: none;
 	line-height: 1;
-	display: inline-block;
+	text-align: center;
+	text-rendering: auto;
+	vertical-align: var(--ds-icon-vertical-align, text-top);
 }
-.ds-icon-close::before {
-	content: '\e001';
+.ds-icon-calendar::before {
+	content: '\ea01';
 }
-.ds-icon-home::before {
-	content: '\e002';
+.ds-icon-house::before {
+	content: '\ea02';
 }
-.ds-icon-search::before {
-	content: '\e003';
-}
-.ds-icon-settings::before {
-	content: '\e004';
+.ds-icon-user::before {
+	content: '\ea03';
 }

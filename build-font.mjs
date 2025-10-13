@@ -9,9 +9,7 @@ const iconName = 'ds-icon';
 const result = await webfont({
 	files: 'icons/*.svg',
 	fontName,
-	formats: ['woff2', 'woff'],
-	normalize: true,
-	fontHeight: 512
+	formats: ['woff2', 'woff']
 });
 
 mkdirSync('fonts', { recursive: true });
@@ -30,18 +28,23 @@ const cssContent = `
 
 [class^="${iconName}-"], [class*=" ${iconName}-"] {
   font-family: "${fontName}" !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  display: inline-block;
+  speak: none; 
+	display: var(--ds-icon-display, inline-block); 
+	font-feature-settings: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-synthesis: none;
+	font-variant: normal;
+	line-height: 1;
+	text-align: center;
+	text-rendering: auto;
+  vertical-align: var(--ds-icon-vertical-align, text-top);
 }
 ${(result.glyphsData || [])
 	.map(
-		(glyph, i) =>
-			`.${iconName}-${basename(glyph.srcPath, '.svg')}::before { content: "\\${(0xe001 + i).toString(16)}"; }`
+		(glyph) =>
+			`.${iconName}-${basename(glyph.srcPath, '.svg')}::before { content: "\\${glyph.metadata.unicode[0].charCodeAt(0).toString(16)}"; }`
 	)
 	.join('\n')}
 `;
