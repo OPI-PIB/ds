@@ -45,7 +45,6 @@ index.html
   href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400..700;1,400..700&display=swap"
   rel="stylesheet"
 />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@opi_pib/ds/icons/ds-icons.css" />
 ```
 
 style.css
@@ -57,6 +56,18 @@ body {
 ```
 
 ### Icons
+
+index.html
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@opi_pib/ds/icons/ds-icons.css" />
+```
+
+or
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@opi_pib/ds@1.0.20/icons/ds-icons.css" />
+```
 
 file.html
 

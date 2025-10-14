@@ -10,28 +10,30 @@ const iconFiles = readdirSync('icons')
 	.map((file) => basename(file, '.svg'));
 
 const cssContent = `
-[class^="${iconName}-"], [class*=" ${iconName}-"] {
-  speak: none; 
+[class^='${iconName}-'],
+[class*=' ${iconName}-'] {
 	display: var(--ds-icon-display, inline-block);
-	background-color: var(--ds-icon-color, currentColor);
-	mask-repeat: no-repeat; 
-	mask-position: center; 
-	mask-size: contain;
 	line-height: 1;
 	width: var(--ds-icon-size, 1em);
 	height: var(--ds-icon-size, 1em);
 	vertical-align: var(--ds-icon-vertical-align, text-bottom);
+	print-color-adjust: exact;
+	background-color: var(--ds-icon-color, currentColor);
+	mask-repeat: no-repeat;
+	mask-position: center;
+	mask-size: contain;
 }
-[class^="${imgName}-"], [class*=" ${imgName}-"] {
-  speak: none; 
+[class^='${imgName}-'],
+[class*=' ${imgName}-'] {
 	display: var(--ds-icon-display, inline-block);
+	line-height: 1;
+	width: var(--ds-icon-size, 1em);
+	height: var(--ds-icon-size, 1em);
+	vertical-align: var(--ds-icon-vertical-align, text-bottom);
+	print-color-adjust: exact;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	line-height: 1;
-	width: var(--ds-icon-size, 1em);
-	height: var(--ds-icon-size, 1em);
-	vertical-align: var(--ds-icon-vertical-align, text-bottom);
 }
 ${(iconFiles || []).map((file) => `.${iconName}-${file}{mask-image: url('${file}.svg');}\n.${imgName}-${file}{background-image: url('${file}.svg');}`).join('\n')}
 `;
