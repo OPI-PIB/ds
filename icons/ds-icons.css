@@ -23,11 +23,671 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 }
+.ds-icon-activity-heart {
+	mask-image: url('activity-heart.svg');
+}
+.ds-img-activity-heart {
+	background-image: url('activity-heart.svg');
+}
+.ds-icon-activity {
+	mask-image: url('activity.svg');
+}
+.ds-img-activity {
+	background-image: url('activity.svg');
+}
+.ds-icon-alert-circle {
+	mask-image: url('alert-circle.svg');
+}
+.ds-img-alert-circle {
+	background-image: url('alert-circle.svg');
+}
+.ds-icon-alert-hexagon {
+	mask-image: url('alert-hexagon.svg');
+}
+.ds-img-alert-hexagon {
+	background-image: url('alert-hexagon.svg');
+}
+.ds-icon-alert-square {
+	mask-image: url('alert-square.svg');
+}
+.ds-img-alert-square {
+	background-image: url('alert-square.svg');
+}
+.ds-icon-alert-triangle {
+	mask-image: url('alert-triangle.svg');
+}
+.ds-img-alert-triangle {
+	background-image: url('alert-triangle.svg');
+}
+.ds-icon-asterisk {
+	mask-image: url('asterisk.svg');
+}
+.ds-img-asterisk {
+	background-image: url('asterisk.svg');
+}
+.ds-icon-at-sign {
+	mask-image: url('at-sign.svg');
+}
+.ds-img-at-sign {
+	background-image: url('at-sign.svg');
+}
+.ds-icon-atom {
+	mask-image: url('atom.svg');
+}
+.ds-img-atom {
+	background-image: url('atom.svg');
+}
+.ds-icon-award-2 {
+	mask-image: url('award-2.svg');
+}
+.ds-img-award-2 {
+	background-image: url('award-2.svg');
+}
+.ds-icon-award-3 {
+	mask-image: url('award-3.svg');
+}
+.ds-img-award-3 {
+	background-image: url('award-3.svg');
+}
+.ds-icon-award {
+	mask-image: url('award.svg');
+}
+.ds-img-award {
+	background-image: url('award.svg');
+}
+.ds-icon-bar-chart-2 {
+	mask-image: url('bar-chart-2.svg');
+}
+.ds-img-bar-chart-2 {
+	background-image: url('bar-chart-2.svg');
+}
+.ds-icon-bar-chart-3 {
+	mask-image: url('bar-chart-3.svg');
+}
+.ds-img-bar-chart-3 {
+	background-image: url('bar-chart-3.svg');
+}
+.ds-icon-bar-chart-4 {
+	mask-image: url('bar-chart-4.svg');
+}
+.ds-img-bar-chart-4 {
+	background-image: url('bar-chart-4.svg');
+}
+.ds-icon-bar-chart {
+	mask-image: url('bar-chart.svg');
+}
+.ds-img-bar-chart {
+	background-image: url('bar-chart.svg');
+}
+.ds-icon-bar-line-chart {
+	mask-image: url('bar-line-chart.svg');
+}
+.ds-img-bar-line-chart {
+	background-image: url('bar-line-chart.svg');
+}
+.ds-icon-battery-full {
+	mask-image: url('battery-full.svg');
+}
+.ds-img-battery-full {
+	background-image: url('battery-full.svg');
+}
+.ds-icon-battery-mid {
+	mask-image: url('battery-mid.svg');
+}
+.ds-img-battery-mid {
+	background-image: url('battery-mid.svg');
+}
+.ds-icon-beaker-2 {
+	mask-image: url('beaker-2.svg');
+}
+.ds-img-beaker-2 {
+	background-image: url('beaker-2.svg');
+}
+.ds-icon-beaker {
+	mask-image: url('beaker.svg');
+}
+.ds-img-beaker {
+	background-image: url('beaker.svg');
+}
+.ds-icon-bell {
+	mask-image: url('bell.svg');
+}
+.ds-img-bell {
+	background-image: url('bell.svg');
+}
+.ds-icon-book-closed {
+	mask-image: url('book-closed.svg');
+}
+.ds-img-book-closed {
+	background-image: url('book-closed.svg');
+}
+.ds-icon-book-open {
+	mask-image: url('book-open.svg');
+}
+.ds-img-book-open {
+	background-image: url('book-open.svg');
+}
+.ds-icon-bookmark {
+	mask-image: url('bookmark.svg');
+}
+.ds-img-bookmark {
+	background-image: url('bookmark.svg');
+}
+.ds-icon-briefcase {
+	mask-image: url('briefcase.svg');
+}
+.ds-img-briefcase {
+	background-image: url('briefcase.svg');
+}
+.ds-icon-brush {
+	mask-image: url('brush.svg');
+}
+.ds-img-brush {
+	background-image: url('brush.svg');
+}
+.ds-icon-building-1 {
+	mask-image: url('building-1.svg');
+}
+.ds-img-building-1 {
+	background-image: url('building-1.svg');
+}
+.ds-icon-building-2 {
+	mask-image: url('building-2.svg');
+}
+.ds-img-building-2 {
+	background-image: url('building-2.svg');
+}
+.ds-icon-building-3 {
+	mask-image: url('building-3.svg');
+}
+.ds-img-building-3 {
+	background-image: url('building-3.svg');
+}
+.ds-icon-calculator {
+	mask-image: url('calculator.svg');
+}
+.ds-img-calculator {
+	background-image: url('calculator.svg');
+}
+.ds-icon-calendar-check {
+	mask-image: url('calendar-check.svg');
+}
+.ds-img-calendar-check {
+	background-image: url('calendar-check.svg');
+}
+.ds-icon-calendar-minus {
+	mask-image: url('calendar-minus.svg');
+}
+.ds-img-calendar-minus {
+	background-image: url('calendar-minus.svg');
+}
+.ds-icon-calendar-plus {
+	mask-image: url('calendar-plus.svg');
+}
+.ds-img-calendar-plus {
+	background-image: url('calendar-plus.svg');
+}
+.ds-icon-calendar {
+	mask-image: url('calendar.svg');
+}
+.ds-img-calendar {
+	background-image: url('calendar.svg');
+}
+.ds-icon-camera {
+	mask-image: url('camera.svg');
+}
+.ds-img-camera {
+	background-image: url('camera.svg');
+}
+.ds-icon-certificate {
+	mask-image: url('certificate.svg');
+}
+.ds-img-certificate {
+	background-image: url('certificate.svg');
+}
+.ds-icon-check-circle {
+	mask-image: url('check-circle.svg');
+}
+.ds-img-check-circle {
+	background-image: url('check-circle.svg');
+}
+.ds-icon-check-square-broken {
+	mask-image: url('check-square-broken.svg');
+}
+.ds-img-check-square-broken {
+	background-image: url('check-square-broken.svg');
+}
+.ds-icon-check-square {
+	mask-image: url('check-square.svg');
+}
+.ds-img-check-square {
+	background-image: url('check-square.svg');
+}
+.ds-icon-check-verified {
+	mask-image: url('check-verified.svg');
+}
+.ds-img-check-verified {
+	background-image: url('check-verified.svg');
+}
+.ds-icon-check {
+	mask-image: url('check.svg');
+}
+.ds-img-check {
+	background-image: url('check.svg');
+}
+.ds-icon-chevron-down {
+	mask-image: url('chevron-down.svg');
+}
+.ds-img-chevron-down {
+	background-image: url('chevron-down.svg');
+}
+.ds-icon-chevron-left {
+	mask-image: url('chevron-left.svg');
+}
+.ds-img-chevron-left {
+	background-image: url('chevron-left.svg');
+}
+.ds-icon-chevron-right {
+	mask-image: url('chevron-right.svg');
+}
+.ds-img-chevron-right {
+	background-image: url('chevron-right.svg');
+}
+.ds-icon-chevron-selector-horizontal {
+	mask-image: url('chevron-selector-horizontal.svg');
+}
+.ds-img-chevron-selector-horizontal {
+	background-image: url('chevron-selector-horizontal.svg');
+}
+.ds-icon-chevron-selector-vertical {
+	mask-image: url('chevron-selector-vertical.svg');
+}
+.ds-img-chevron-selector-vertical {
+	background-image: url('chevron-selector-vertical.svg');
+}
+.ds-icon-chevron-up {
+	mask-image: url('chevron-up.svg');
+}
+.ds-img-chevron-up {
+	background-image: url('chevron-up.svg');
+}
+.ds-icon-circle-down {
+	mask-image: url('circle-down.svg');
+}
+.ds-img-circle-down {
+	background-image: url('circle-down.svg');
+}
+.ds-icon-circle-left {
+	mask-image: url('circle-left.svg');
+}
+.ds-img-circle-left {
+	background-image: url('circle-left.svg');
+}
+.ds-icon-circle-right {
+	mask-image: url('circle-right.svg');
+}
+.ds-img-circle-right {
+	background-image: url('circle-right.svg');
+}
+.ds-icon-circle-up {
+	mask-image: url('circle-up.svg');
+}
+.ds-img-circle-up {
+	background-image: url('circle-up.svg');
+}
+.ds-icon-circle {
+	mask-image: url('circle.svg');
+}
+.ds-img-circle {
+	background-image: url('circle.svg');
+}
+.ds-icon-clock-check {
+	mask-image: url('clock-check.svg');
+}
+.ds-img-clock-check {
+	background-image: url('clock-check.svg');
+}
+.ds-icon-clock-plus {
+	mask-image: url('clock-plus.svg');
+}
+.ds-img-clock-plus {
+	background-image: url('clock-plus.svg');
+}
+.ds-icon-clock {
+	mask-image: url('clock.svg');
+}
+.ds-img-clock {
+	background-image: url('clock.svg');
+}
+.ds-icon-cloud {
+	mask-image: url('cloud.svg');
+}
+.ds-img-cloud {
+	background-image: url('cloud.svg');
+}
+.ds-icon-code-snippet {
+	mask-image: url('code-snippet.svg');
+}
+.ds-img-code-snippet {
+	background-image: url('code-snippet.svg');
+}
+.ds-icon-colors {
+	mask-image: url('colors.svg');
+}
+.ds-img-colors {
+	background-image: url('colors.svg');
+}
+.ds-icon-columns {
+	mask-image: url('columns.svg');
+}
+.ds-img-columns {
+	background-image: url('columns.svg');
+}
+.ds-icon-compass {
+	mask-image: url('compass.svg');
+}
+.ds-img-compass {
+	background-image: url('compass.svg');
+}
+.ds-icon-compass_1 {
+	mask-image: url('compass_1.svg');
+}
+.ds-img-compass_1 {
+	background-image: url('compass_1.svg');
+}
+.ds-icon-contrast {
+	mask-image: url('contrast.svg');
+}
+.ds-img-contrast {
+	background-image: url('contrast.svg');
+}
+.ds-icon-copy {
+	mask-image: url('copy.svg');
+}
+.ds-img-copy {
+	background-image: url('copy.svg');
+}
+.ds-icon-crop {
+	mask-image: url('crop.svg');
+}
+.ds-img-crop {
+	background-image: url('crop.svg');
+}
+.ds-icon-cube-2 {
+	mask-image: url('cube-2.svg');
+}
+.ds-img-cube-2 {
+	background-image: url('cube-2.svg');
+}
+.ds-icon-cube {
+	mask-image: url('cube.svg');
+}
+.ds-img-cube {
+	background-image: url('cube.svg');
+}
+.ds-icon-cursor-click {
+	mask-image: url('cursor-click.svg');
+}
+.ds-img-cursor-click {
+	background-image: url('cursor-click.svg');
+}
+.ds-icon-cursor {
+	mask-image: url('cursor.svg');
+}
+.ds-img-cursor {
+	background-image: url('cursor.svg');
+}
+.ds-icon-divide {
+	mask-image: url('divide.svg');
+}
+.ds-img-divide {
+	background-image: url('divide.svg');
+}
+.ds-icon-dots-horizontal {
+	mask-image: url('dots-horizontal.svg');
+}
+.ds-img-dots-horizontal {
+	background-image: url('dots-horizontal.svg');
+}
+.ds-icon-dots-vertical {
+	mask-image: url('dots-vertical.svg');
+}
+.ds-img-dots-vertical {
+	background-image: url('dots-vertical.svg');
+}
+.ds-icon-down {
+	mask-image: url('down.svg');
+}
+.ds-img-down {
+	background-image: url('down.svg');
+}
+.ds-icon-download-cloud {
+	mask-image: url('download-cloud.svg');
+}
+.ds-img-download-cloud {
+	background-image: url('download-cloud.svg');
+}
+.ds-icon-download {
+	mask-image: url('download.svg');
+}
+.ds-img-download {
+	background-image: url('download.svg');
+}
+.ds-icon-edit-text {
+	mask-image: url('edit-text.svg');
+}
+.ds-img-edit-text {
+	background-image: url('edit-text.svg');
+}
 .ds-icon-edit {
 	mask-image: url('edit.svg');
 }
 .ds-img-edit {
 	background-image: url('edit.svg');
+}
+.ds-icon-equal {
+	mask-image: url('equal.svg');
+}
+.ds-img-equal {
+	background-image: url('equal.svg');
+}
+.ds-icon-eraser {
+	mask-image: url('eraser.svg');
+}
+.ds-img-eraser {
+	background-image: url('eraser.svg');
+}
+.ds-icon-face-happy {
+	mask-image: url('face-happy.svg');
+}
+.ds-img-face-happy {
+	background-image: url('face-happy.svg');
+}
+.ds-icon-face-id {
+	mask-image: url('face-id.svg');
+}
+.ds-img-face-id {
+	background-image: url('face-id.svg');
+}
+.ds-icon-face-neutral {
+	mask-image: url('face-neutral.svg');
+}
+.ds-img-face-neutral {
+	background-image: url('face-neutral.svg');
+}
+.ds-icon-face-sad {
+	mask-image: url('face-sad.svg');
+}
+.ds-img-face-sad {
+	background-image: url('face-sad.svg');
+}
+.ds-icon-face-smile {
+	mask-image: url('face-smile.svg');
+}
+.ds-img-face-smile {
+	background-image: url('face-smile.svg');
+}
+.ds-icon-facebook {
+	mask-image: url('facebook.svg');
+}
+.ds-img-facebook {
+	background-image: url('facebook.svg');
+}
+.ds-icon-fast-backward {
+	mask-image: url('fast-backward.svg');
+}
+.ds-img-fast-backward {
+	background-image: url('fast-backward.svg');
+}
+.ds-icon-fast-forward {
+	mask-image: url('fast-forward.svg');
+}
+.ds-img-fast-forward {
+	background-image: url('fast-forward.svg');
+}
+.ds-icon-figma {
+	mask-image: url('figma.svg');
+}
+.ds-img-figma {
+	background-image: url('figma.svg');
+}
+.ds-icon-file-2 {
+	mask-image: url('file-2.svg');
+}
+.ds-img-file-2 {
+	background-image: url('file-2.svg');
+}
+.ds-icon-file-check {
+	mask-image: url('file-check.svg');
+}
+.ds-img-file-check {
+	background-image: url('file-check.svg');
+}
+.ds-icon-file-download {
+	mask-image: url('file-download.svg');
+}
+.ds-img-file-download {
+	background-image: url('file-download.svg');
+}
+.ds-icon-file-lock {
+	mask-image: url('file-lock.svg');
+}
+.ds-img-file-lock {
+	background-image: url('file-lock.svg');
+}
+.ds-icon-file-minus {
+	mask-image: url('file-minus.svg');
+}
+.ds-img-file-minus {
+	background-image: url('file-minus.svg');
+}
+.ds-icon-file-plus {
+	mask-image: url('file-plus.svg');
+}
+.ds-img-file-plus {
+	background-image: url('file-plus.svg');
+}
+.ds-icon-file-question {
+	mask-image: url('file-question.svg');
+}
+.ds-img-file-question {
+	background-image: url('file-question.svg');
+}
+.ds-icon-file-search {
+	mask-image: url('file-search.svg');
+}
+.ds-img-file-search {
+	background-image: url('file-search.svg');
+}
+.ds-icon-file-shield {
+	mask-image: url('file-shield.svg');
+}
+.ds-img-file-shield {
+	background-image: url('file-shield.svg');
+}
+.ds-icon-file-statistics {
+	mask-image: url('file-statistics.svg');
+}
+.ds-img-file-statistics {
+	background-image: url('file-statistics.svg');
+}
+.ds-icon-file-x {
+	mask-image: url('file-x.svg');
+}
+.ds-img-file-x {
+	background-image: url('file-x.svg');
+}
+.ds-icon-file {
+	mask-image: url('file.svg');
+}
+.ds-img-file {
+	background-image: url('file.svg');
+}
+.ds-icon-film {
+	mask-image: url('film.svg');
+}
+.ds-img-film {
+	background-image: url('film.svg');
+}
+.ds-icon-filter-funnel {
+	mask-image: url('filter-funnel.svg');
+}
+.ds-img-filter-funnel {
+	background-image: url('filter-funnel.svg');
+}
+.ds-icon-fingerprint {
+	mask-image: url('fingerprint.svg');
+}
+.ds-img-fingerprint {
+	background-image: url('fingerprint.svg');
+}
+.ds-icon-flag {
+	mask-image: url('flag.svg');
+}
+.ds-img-flag {
+	background-image: url('flag.svg');
+}
+.ds-icon-folder-check {
+	mask-image: url('folder-check.svg');
+}
+.ds-img-folder-check {
+	background-image: url('folder-check.svg');
+}
+.ds-icon-folder-download {
+	mask-image: url('folder-download.svg');
+}
+.ds-img-folder-download {
+	background-image: url('folder-download.svg');
+}
+.ds-icon-folder {
+	mask-image: url('folder.svg');
+}
+.ds-img-folder {
+	background-image: url('folder.svg');
+}
+.ds-icon-github {
+	mask-image: url('github.svg');
+}
+.ds-img-github {
+	background-image: url('github.svg');
+}
+.ds-icon-glasses {
+	mask-image: url('glasses.svg');
+}
+.ds-img-glasses {
+	background-image: url('glasses.svg');
+}
+.ds-icon-globe-slated {
+	mask-image: url('globe-slated.svg');
+}
+.ds-img-globe-slated {
+	background-image: url('globe-slated.svg');
+}
+.ds-icon-globe {
+	mask-image: url('globe.svg');
+}
+.ds-img-globe {
+	background-image: url('globe.svg');
 }
 .ds-icon-google {
 	mask-image: url('google.svg');
@@ -35,11 +695,533 @@
 .ds-img-google {
 	background-image: url('google.svg');
 }
+.ds-icon-graduation-hat {
+	mask-image: url('graduation-hat.svg');
+}
+.ds-img-graduation-hat {
+	background-image: url('graduation-hat.svg');
+}
+.ds-icon-grid {
+	mask-image: url('grid.svg');
+}
+.ds-img-grid {
+	background-image: url('grid.svg');
+}
+.ds-icon-hash {
+	mask-image: url('hash.svg');
+}
+.ds-img-hash {
+	background-image: url('hash.svg');
+}
+.ds-icon-headphones {
+	mask-image: url('headphones.svg');
+}
+.ds-img-headphones {
+	background-image: url('headphones.svg');
+}
+.ds-icon-heart-circle {
+	mask-image: url('heart-circle.svg');
+}
+.ds-img-heart-circle {
+	background-image: url('heart-circle.svg');
+}
+.ds-icon-heart-hand {
+	mask-image: url('heart-hand.svg');
+}
+.ds-img-heart-hand {
+	background-image: url('heart-hand.svg');
+}
+.ds-icon-heart {
+	mask-image: url('heart.svg');
+}
+.ds-img-heart {
+	background-image: url('heart.svg');
+}
+.ds-icon-help-circle {
+	mask-image: url('help-circle.svg');
+}
+.ds-img-help-circle {
+	background-image: url('help-circle.svg');
+}
+.ds-icon-help-hexagon {
+	mask-image: url('help-hexagon.svg');
+}
+.ds-img-help-hexagon {
+	background-image: url('help-hexagon.svg');
+}
+.ds-icon-help-square {
+	mask-image: url('help-square.svg');
+}
+.ds-img-help-square {
+	background-image: url('help-square.svg');
+}
+.ds-icon-hexagon-2 {
+	mask-image: url('hexagon-2.svg');
+}
+.ds-img-hexagon-2 {
+	background-image: url('hexagon-2.svg');
+}
+.ds-icon-hexagon {
+	mask-image: url('hexagon.svg');
+}
+.ds-img-hexagon {
+	background-image: url('hexagon.svg');
+}
 .ds-icon-hide {
 	mask-image: url('hide.svg');
 }
 .ds-img-hide {
 	background-image: url('hide.svg');
+}
+.ds-icon-home {
+	mask-image: url('home.svg');
+}
+.ds-img-home {
+	background-image: url('home.svg');
+}
+.ds-icon-horizontal-bar-chart {
+	mask-image: url('horizontal-bar-chart.svg');
+}
+.ds-img-horizontal-bar-chart {
+	background-image: url('horizontal-bar-chart.svg');
+}
+.ds-icon-hourglass {
+	mask-image: url('hourglass.svg');
+}
+.ds-img-hourglass {
+	background-image: url('hourglass.svg');
+}
+.ds-icon-image-check {
+	mask-image: url('image-check.svg');
+}
+.ds-img-image-check {
+	background-image: url('image-check.svg');
+}
+.ds-icon-image-down {
+	mask-image: url('image-down.svg');
+}
+.ds-img-image-down {
+	background-image: url('image-down.svg');
+}
+.ds-icon-image-plus {
+	mask-image: url('image-plus.svg');
+}
+.ds-img-image-plus {
+	background-image: url('image-plus.svg');
+}
+.ds-icon-image-x {
+	mask-image: url('image-x.svg');
+}
+.ds-img-image-x {
+	background-image: url('image-x.svg');
+}
+.ds-icon-image {
+	mask-image: url('image.svg');
+}
+.ds-img-image {
+	background-image: url('image.svg');
+}
+.ds-icon-info-circle {
+	mask-image: url('info-circle.svg');
+}
+.ds-img-info-circle {
+	background-image: url('info-circle.svg');
+}
+.ds-icon-info-hexagon {
+	mask-image: url('info-hexagon.svg');
+}
+.ds-img-info-hexagon {
+	background-image: url('info-hexagon.svg');
+}
+.ds-icon-info-square {
+	mask-image: url('info-square.svg');
+}
+.ds-img-info-square {
+	background-image: url('info-square.svg');
+}
+.ds-icon-instagram {
+	mask-image: url('instagram.svg');
+}
+.ds-img-instagram {
+	background-image: url('instagram.svg');
+}
+.ds-icon-left {
+	mask-image: url('left.svg');
+}
+.ds-img-left {
+	background-image: url('left.svg');
+}
+.ds-icon-lightbulb {
+	mask-image: url('lightbulb.svg');
+}
+.ds-img-lightbulb {
+	background-image: url('lightbulb.svg');
+}
+.ds-icon-line-chart-down-arrow {
+	mask-image: url('line-chart-down-arrow.svg');
+}
+.ds-img-line-chart-down-arrow {
+	background-image: url('line-chart-down-arrow.svg');
+}
+.ds-icon-line-chart-down {
+	mask-image: url('line-chart-down.svg');
+}
+.ds-img-line-chart-down {
+	background-image: url('line-chart-down.svg');
+}
+.ds-icon-line-chart-up-arrow {
+	mask-image: url('line-chart-up-arrow.svg');
+}
+.ds-img-line-chart-up-arrow {
+	background-image: url('line-chart-up-arrow.svg');
+}
+.ds-icon-line-chart-up {
+	mask-image: url('line-chart-up.svg');
+}
+.ds-img-line-chart-up {
+	background-image: url('line-chart-up.svg');
+}
+.ds-icon-link-diagonal {
+	mask-image: url('link-diagonal.svg');
+}
+.ds-img-link-diagonal {
+	background-image: url('link-diagonal.svg');
+}
+.ds-icon-link-external {
+	mask-image: url('link-external.svg');
+}
+.ds-img-link-external {
+	background-image: url('link-external.svg');
+}
+.ds-icon-link {
+	mask-image: url('link.svg');
+}
+.ds-img-link {
+	background-image: url('link.svg');
+}
+.ds-icon-linkedin {
+	mask-image: url('linkedin.svg');
+}
+.ds-img-linkedin {
+	background-image: url('linkedin.svg');
+}
+.ds-icon-list {
+	mask-image: url('list.svg');
+}
+.ds-img-list {
+	background-image: url('list.svg');
+}
+.ds-icon-loading {
+	mask-image: url('loading.svg');
+}
+.ds-img-loading {
+	background-image: url('loading.svg');
+}
+.ds-icon-lock-unlocked {
+	mask-image: url('lock-unlocked.svg');
+}
+.ds-img-lock-unlocked {
+	background-image: url('lock-unlocked.svg');
+}
+.ds-icon-lock {
+	mask-image: url('lock.svg');
+}
+.ds-img-lock {
+	background-image: url('lock.svg');
+}
+.ds-icon-log-in {
+	mask-image: url('log-in.svg');
+}
+.ds-img-log-in {
+	background-image: url('log-in.svg');
+}
+.ds-icon-log-out {
+	mask-image: url('log-out.svg');
+}
+.ds-img-log-out {
+	background-image: url('log-out.svg');
+}
+.ds-icon-mail-close {
+	mask-image: url('mail-close.svg');
+}
+.ds-img-mail-close {
+	background-image: url('mail-close.svg');
+}
+.ds-icon-mail-open {
+	mask-image: url('mail-open.svg');
+}
+.ds-img-mail-open {
+	background-image: url('mail-open.svg');
+}
+.ds-icon-maximize {
+	mask-image: url('maximize.svg');
+}
+.ds-img-maximize {
+	background-image: url('maximize.svg');
+}
+.ds-icon-medical-circle {
+	mask-image: url('medical-circle.svg');
+}
+.ds-img-medical-circle {
+	background-image: url('medical-circle.svg');
+}
+.ds-icon-medical-cross {
+	mask-image: url('medical-cross.svg');
+}
+.ds-img-medical-cross {
+	background-image: url('medical-cross.svg');
+}
+.ds-icon-menu {
+	mask-image: url('menu.svg');
+}
+.ds-img-menu {
+	background-image: url('menu.svg');
+}
+.ds-icon-message-chat {
+	mask-image: url('message-chat.svg');
+}
+.ds-img-message-chat {
+	background-image: url('message-chat.svg');
+}
+.ds-icon-message-notification {
+	mask-image: url('message-notification.svg');
+}
+.ds-img-message-notification {
+	background-image: url('message-notification.svg');
+}
+.ds-icon-message {
+	mask-image: url('message.svg');
+}
+.ds-img-message {
+	background-image: url('message.svg');
+}
+.ds-icon-microphone {
+	mask-image: url('microphone.svg');
+}
+.ds-img-microphone {
+	background-image: url('microphone.svg');
+}
+.ds-icon-microscope {
+	mask-image: url('microscope.svg');
+}
+.ds-img-microscope {
+	background-image: url('microscope.svg');
+}
+.ds-icon-minimize {
+	mask-image: url('minimize.svg');
+}
+.ds-img-minimize {
+	background-image: url('minimize.svg');
+}
+.ds-icon-minus-circle {
+	mask-image: url('minus-circle.svg');
+}
+.ds-img-minus-circle {
+	background-image: url('minus-circle.svg');
+}
+.ds-icon-minus-square {
+	mask-image: url('minus-square.svg');
+}
+.ds-img-minus-square {
+	background-image: url('minus-square.svg');
+}
+.ds-icon-minus {
+	mask-image: url('minus.svg');
+}
+.ds-img-minus {
+	background-image: url('minus.svg');
+}
+.ds-icon-monitor {
+	mask-image: url('monitor.svg');
+}
+.ds-img-monitor {
+	background-image: url('monitor.svg');
+}
+.ds-icon-moon {
+	mask-image: url('moon.svg');
+}
+.ds-img-moon {
+	background-image: url('moon.svg');
+}
+.ds-icon-music-note {
+	mask-image: url('music-note.svg');
+}
+.ds-img-music-note {
+	background-image: url('music-note.svg');
+}
+.ds-icon-not-equal {
+	mask-image: url('not-equal.svg');
+}
+.ds-img-not-equal {
+	background-image: url('not-equal.svg');
+}
+.ds-icon-octagon {
+	mask-image: url('octagon.svg');
+}
+.ds-img-octagon {
+	background-image: url('octagon.svg');
+}
+.ds-icon-palette {
+	mask-image: url('palette.svg');
+}
+.ds-img-palette {
+	background-image: url('palette.svg');
+}
+.ds-icon-paperclip {
+	mask-image: url('paperclip.svg');
+}
+.ds-img-paperclip {
+	background-image: url('paperclip.svg');
+}
+.ds-icon-passcode-lock {
+	mask-image: url('passcode-lock.svg');
+}
+.ds-img-passcode-lock {
+	background-image: url('passcode-lock.svg');
+}
+.ds-icon-passcode {
+	mask-image: url('passcode.svg');
+}
+.ds-img-passcode {
+	background-image: url('passcode.svg');
+}
+.ds-icon-pencil {
+	mask-image: url('pencil.svg');
+}
+.ds-img-pencil {
+	background-image: url('pencil.svg');
+}
+.ds-icon-percent {
+	mask-image: url('percent.svg');
+}
+.ds-img-percent {
+	background-image: url('percent.svg');
+}
+.ds-icon-phone {
+	mask-image: url('phone.svg');
+}
+.ds-img-phone {
+	background-image: url('phone.svg');
+}
+.ds-icon-phone_1 {
+	mask-image: url('phone_1.svg');
+}
+.ds-img-phone_1 {
+	background-image: url('phone_1.svg');
+}
+.ds-icon-pie-chart-2 {
+	mask-image: url('pie-chart-2.svg');
+}
+.ds-img-pie-chart-2 {
+	background-image: url('pie-chart-2.svg');
+}
+.ds-icon-pie-chart {
+	mask-image: url('pie-chart.svg');
+}
+.ds-img-pie-chart {
+	background-image: url('pie-chart.svg');
+}
+.ds-icon-pin {
+	mask-image: url('pin.svg');
+}
+.ds-img-pin {
+	background-image: url('pin.svg');
+}
+.ds-icon-pin_1 {
+	mask-image: url('pin_1.svg');
+}
+.ds-img-pin_1 {
+	background-image: url('pin_1.svg');
+}
+.ds-icon-play {
+	mask-image: url('play.svg');
+}
+.ds-img-play {
+	background-image: url('play.svg');
+}
+.ds-icon-plus-circle {
+	mask-image: url('plus-circle.svg');
+}
+.ds-img-plus-circle {
+	background-image: url('plus-circle.svg');
+}
+.ds-icon-plus-square {
+	mask-image: url('plus-square.svg');
+}
+.ds-img-plus-square {
+	background-image: url('plus-square.svg');
+}
+.ds-icon-plus {
+	mask-image: url('plus.svg');
+}
+.ds-img-plus {
+	background-image: url('plus.svg');
+}
+.ds-icon-power {
+	mask-image: url('power.svg');
+}
+.ds-img-power {
+	background-image: url('power.svg');
+}
+.ds-icon-presentation-chart {
+	mask-image: url('presentation-chart.svg');
+}
+.ds-img-presentation-chart {
+	background-image: url('presentation-chart.svg');
+}
+.ds-icon-presentation-stand {
+	mask-image: url('presentation-stand.svg');
+}
+.ds-img-presentation-stand {
+	background-image: url('presentation-stand.svg');
+}
+.ds-icon-printer {
+	mask-image: url('printer.svg');
+}
+.ds-img-printer {
+	background-image: url('printer.svg');
+}
+.ds-icon-puzzle-piece {
+	mask-image: url('puzzle-piece.svg');
+}
+.ds-img-puzzle-piece {
+	background-image: url('puzzle-piece.svg');
+}
+.ds-icon-qr-code {
+	mask-image: url('qr-code.svg');
+}
+.ds-img-qr-code {
+	background-image: url('qr-code.svg');
+}
+.ds-icon-refresh {
+	mask-image: url('refresh.svg');
+}
+.ds-img-refresh {
+	background-image: url('refresh.svg');
+}
+.ds-icon-right {
+	mask-image: url('right.svg');
+}
+.ds-img-right {
+	background-image: url('right.svg');
+}
+.ds-icon-rocket {
+	mask-image: url('rocket.svg');
+}
+.ds-img-rocket {
+	background-image: url('rocket.svg');
+}
+.ds-icon-rows {
+	mask-image: url('rows.svg');
+}
+.ds-img-rows {
+	background-image: url('rows.svg');
+}
+.ds-icon-ruler {
+	mask-image: url('ruler.svg');
+}
+.ds-img-ruler {
+	background-image: url('ruler.svg');
 }
 .ds-icon-save {
 	mask-image: url('save.svg');
@@ -47,9 +1229,279 @@
 .ds-img-save {
 	background-image: url('save.svg');
 }
+.ds-icon-scale {
+	mask-image: url('scale.svg');
+}
+.ds-img-scale {
+	background-image: url('scale.svg');
+}
+.ds-icon-scan {
+	mask-image: url('scan.svg');
+}
+.ds-img-scan {
+	background-image: url('scan.svg');
+}
+.ds-icon-scissors {
+	mask-image: url('scissors.svg');
+}
+.ds-img-scissors {
+	background-image: url('scissors.svg');
+}
 .ds-icon-search {
 	mask-image: url('search.svg');
 }
 .ds-img-search {
 	background-image: url('search.svg');
+}
+.ds-icon-send {
+	mask-image: url('send.svg');
+}
+.ds-img-send {
+	background-image: url('send.svg');
+}
+.ds-icon-settings {
+	mask-image: url('settings.svg');
+}
+.ds-img-settings {
+	background-image: url('settings.svg');
+}
+.ds-icon-share {
+	mask-image: url('share.svg');
+}
+.ds-img-share {
+	background-image: url('share.svg');
+}
+.ds-icon-shield-tick {
+	mask-image: url('shield-tick.svg');
+}
+.ds-img-shield-tick {
+	background-image: url('shield-tick.svg');
+}
+.ds-icon-shield {
+	mask-image: url('shield.svg');
+}
+.ds-img-shield {
+	background-image: url('shield.svg');
+}
+.ds-icon-show {
+	mask-image: url('show.svg');
+}
+.ds-img-show {
+	background-image: url('show.svg');
+}
+.ds-icon-skip-back {
+	mask-image: url('skip-back.svg');
+}
+.ds-img-skip-back {
+	background-image: url('skip-back.svg');
+}
+.ds-icon-skip-forward {
+	mask-image: url('skip-forward.svg');
+}
+.ds-img-skip-forward {
+	background-image: url('skip-forward.svg');
+}
+.ds-icon-sliders {
+	mask-image: url('sliders.svg');
+}
+.ds-img-sliders {
+	background-image: url('sliders.svg');
+}
+.ds-icon-square {
+	mask-image: url('square.svg');
+}
+.ds-img-square {
+	background-image: url('square.svg');
+}
+.ds-icon-star {
+	mask-image: url('star.svg');
+}
+.ds-img-star {
+	background-image: url('star.svg');
+}
+.ds-icon-stop {
+	mask-image: url('stop.svg');
+}
+.ds-img-stop {
+	background-image: url('stop.svg');
+}
+.ds-icon-sun {
+	mask-image: url('sun.svg');
+}
+.ds-img-sun {
+	background-image: url('sun.svg');
+}
+.ds-icon-switch-horizontal {
+	mask-image: url('switch-horizontal.svg');
+}
+.ds-img-switch-horizontal {
+	background-image: url('switch-horizontal.svg');
+}
+.ds-icon-switch-vertical {
+	mask-image: url('switch-vertical.svg');
+}
+.ds-img-switch-vertical {
+	background-image: url('switch-vertical.svg');
+}
+.ds-icon-table {
+	mask-image: url('table.svg');
+}
+.ds-img-table {
+	background-image: url('table.svg');
+}
+.ds-icon-target {
+	mask-image: url('target.svg');
+}
+.ds-img-target {
+	background-image: url('target.svg');
+}
+.ds-icon-telescope {
+	mask-image: url('telescope.svg');
+}
+.ds-img-telescope {
+	background-image: url('telescope.svg');
+}
+.ds-icon-tool-2 {
+	mask-image: url('tool-2.svg');
+}
+.ds-img-tool-2 {
+	background-image: url('tool-2.svg');
+}
+.ds-icon-tool {
+	mask-image: url('tool.svg');
+}
+.ds-img-tool {
+	background-image: url('tool.svg');
+}
+.ds-icon-translate {
+	mask-image: url('translate.svg');
+}
+.ds-img-translate {
+	background-image: url('translate.svg');
+}
+.ds-icon-trash {
+	mask-image: url('trash.svg');
+}
+.ds-img-trash {
+	background-image: url('trash.svg');
+}
+.ds-icon-triangle {
+	mask-image: url('triangle.svg');
+}
+.ds-img-triangle {
+	background-image: url('triangle.svg');
+}
+.ds-icon-trophy {
+	mask-image: url('trophy.svg');
+}
+.ds-img-trophy {
+	background-image: url('trophy.svg');
+}
+.ds-icon-up {
+	mask-image: url('up.svg');
+}
+.ds-img-up {
+	background-image: url('up.svg');
+}
+.ds-icon-upload-cloud {
+	mask-image: url('upload-cloud.svg');
+}
+.ds-img-upload-cloud {
+	background-image: url('upload-cloud.svg');
+}
+.ds-icon-upload {
+	mask-image: url('upload.svg');
+}
+.ds-img-upload {
+	background-image: url('upload.svg');
+}
+.ds-icon-user-check {
+	mask-image: url('user-check.svg');
+}
+.ds-img-user-check {
+	background-image: url('user-check.svg');
+}
+.ds-icon-user-circle {
+	mask-image: url('user-circle.svg');
+}
+.ds-img-user-circle {
+	background-image: url('user-circle.svg');
+}
+.ds-icon-user-plus {
+	mask-image: url('user-plus.svg');
+}
+.ds-img-user-plus {
+	background-image: url('user-plus.svg');
+}
+.ds-icon-user-square {
+	mask-image: url('user-square.svg');
+}
+.ds-img-user-square {
+	background-image: url('user-square.svg');
+}
+.ds-icon-user {
+	mask-image: url('user.svg');
+}
+.ds-img-user {
+	background-image: url('user.svg');
+}
+.ds-icon-users {
+	mask-image: url('users.svg');
+}
+.ds-img-users {
+	background-image: url('users.svg');
+}
+.ds-icon-virus {
+	mask-image: url('virus.svg');
+}
+.ds-img-virus {
+	background-image: url('virus.svg');
+}
+.ds-icon-x-big {
+	mask-image: url('x-big.svg');
+}
+.ds-img-x-big {
+	background-image: url('x-big.svg');
+}
+.ds-icon-x-circle {
+	mask-image: url('x-circle.svg');
+}
+.ds-img-x-circle {
+	background-image: url('x-circle.svg');
+}
+.ds-icon-x-small {
+	mask-image: url('x-small.svg');
+}
+.ds-img-x-small {
+	background-image: url('x-small.svg');
+}
+.ds-icon-x-square {
+	mask-image: url('x-square.svg');
+}
+.ds-img-x-square {
+	background-image: url('x-square.svg');
+}
+.ds-icon-x {
+	mask-image: url('x.svg');
+}
+.ds-img-x {
+	background-image: url('x.svg');
+}
+.ds-icon-youtube {
+	mask-image: url('youtube.svg');
+}
+.ds-img-youtube {
+	background-image: url('youtube.svg');
+}
+.ds-icon-zoom-in {
+	mask-image: url('zoom-in.svg');
+}
+.ds-img-zoom-in {
+	background-image: url('zoom-in.svg');
+}
+.ds-icon-zoom-out {
+	mask-image: url('zoom-out.svg');
+}
+.ds-img-zoom-out {
+	background-image: url('zoom-out.svg');
 }
