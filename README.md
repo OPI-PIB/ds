@@ -21,6 +21,12 @@ style.css
 @import '@opi_pib/ds' layer(ds);
 ```
 
+or
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@opi_pib/ds/dist/index.css" />
+```
+
 ### Tailwind
 
 style.css
