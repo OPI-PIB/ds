@@ -527,6 +527,12 @@
 .ds-img-face-smile {
 	background-image: url('face-smile.svg');
 }
+.ds-icon-facebook-mono {
+	mask-image: url('facebook-mono.svg');
+}
+.ds-img-facebook-mono {
+	background-image: url('facebook-mono.svg');
+}
 .ds-icon-facebook {
 	mask-image: url('facebook.svg');
 }
@@ -544,6 +550,12 @@
 }
 .ds-img-fast-forward {
 	background-image: url('fast-forward.svg');
+}
+.ds-icon-figma-mono {
+	mask-image: url('figma-mono.svg');
+}
+.ds-img-figma-mono {
+	background-image: url('figma-mono.svg');
 }
 .ds-icon-figma {
 	mask-image: url('figma.svg');
@@ -665,6 +677,12 @@
 .ds-img-folder {
 	background-image: url('folder.svg');
 }
+.ds-icon-github-mono {
+	mask-image: url('github-mono.svg');
+}
+.ds-img-github-mono {
+	background-image: url('github-mono.svg');
+}
 .ds-icon-github {
 	mask-image: url('github.svg');
 }
@@ -688,6 +706,12 @@
 }
 .ds-img-globe {
 	background-image: url('globe.svg');
+}
+.ds-icon-google-mono {
+	mask-image: url('google-mono.svg');
+}
+.ds-img-google-mono {
+	background-image: url('google-mono.svg');
 }
 .ds-icon-google {
 	mask-image: url('google.svg');
@@ -839,6 +863,12 @@
 .ds-img-info-square {
 	background-image: url('info-square.svg');
 }
+.ds-icon-instagram-mono {
+	mask-image: url('instagram-mono.svg');
+}
+.ds-img-instagram-mono {
+	background-image: url('instagram-mono.svg');
+}
 .ds-icon-instagram {
 	mask-image: url('instagram.svg');
 }
@@ -898,6 +928,12 @@
 }
 .ds-img-link {
 	background-image: url('link.svg');
+}
+.ds-icon-linkedin-mono {
+	mask-image: url('linkedin-mono.svg');
+}
+.ds-img-linkedin-mono {
+	background-image: url('linkedin-mono.svg');
 }
 .ds-icon-linkedin {
 	mask-image: url('linkedin.svg');
@@ -1469,6 +1505,12 @@
 .ds-img-x-circle {
 	background-image: url('x-circle.svg');
 }
+.ds-icon-x-mono {
+	mask-image: url('x-mono.svg');
+}
+.ds-img-x-mono {
+	background-image: url('x-mono.svg');
+}
 .ds-icon-x-small {
 	mask-image: url('x-small.svg');
 }
@@ -1486,6 +1528,12 @@
 }
 .ds-img-x {
 	background-image: url('x.svg');
+}
+.ds-icon-youtube-mono {
+	mask-image: url('youtube-mono.svg');
+}
+.ds-img-youtube-mono {
+	background-image: url('youtube-mono.svg');
 }
 .ds-icon-youtube {
 	mask-image: url('youtube.svg');
