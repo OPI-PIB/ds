@@ -1,6 +1,6 @@
 {
 	"name": "@opi_pib/ds",
-	"version": "1.0.23",
+	"version": "1.0.24",
 	"description": "Design system OPI PIB",
 	"style": "dist/index.css",
 	"files": [
@@ -37,8 +37,7 @@
 		"@opi_pib/stylelint-config-base": "^1.0.0",
 		"@tailwindcss/cli": "^4.0.0",
 		"husky": "^9.0.0",
-		"lint-staged": "^16.0.0",
-		"webfont": "^11.0.0"
+		"lint-staged": "^16.0.0"
 	},
 	"homepage": "https://github.com/OPI-PIB/ds#readme",
 	"repository": {

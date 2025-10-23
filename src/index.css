@@ -122,9 +122,15 @@
 	}
 }
 
+@property --link-text-decoration {
+	inherits: true;
+	initial-value: underline;
+	syntax: 'underline | none';
+}
+
 u,
 a {
-	text-decoration-line: underline;
+	text-decoration-line: var(--link-text-decoration);
 	text-decoration-skip-ink: auto;
 	text-decoration-style: solid;
 	text-underline-offset: 25%;
