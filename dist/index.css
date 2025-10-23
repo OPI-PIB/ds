@@ -1,4 +1,5 @@
-/*! tailwindcss v4.1.14 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.1.15 | MIT License | https://tailwindcss.com */
+@layer properties;
 :root,
 :host {
 	--spacing: 0.25rem;
@@ -154,9 +155,14 @@
 		--text-h4--size: 1.25rem;
 	}
 }
+@property --link-text-decoration {
+	inherits: true;
+	initial-value: underline;
+	syntax: 'underline | none';
+}
 u,
 a {
-	text-decoration-line: underline;
+	text-decoration-line: var(--link-text-decoration);
 	text-decoration-skip-ink: auto;
 	text-decoration-style: solid;
 	text-underline-offset: 25%;
@@ -320,5 +326,14 @@ a {
 		font-weight: var(--font-weight-regular);
 		line-height: var(--text-t2--line-height);
 		text-decoration-thickness: 8%;
+	}
+}
+@layer properties {
+	@supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or
+		((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
+		:root,
+		:host {
+			--link-text-decoration: underline;
+		}
 	}
 }
