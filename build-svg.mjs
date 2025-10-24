@@ -35,6 +35,13 @@ const cssContent = `
 	background-repeat: no-repeat;
 	background-size: contain;
 }
+@media (prefers-color-scheme: dark) {
+  [class^='${imgName}-'],
+	[class*=' ${imgName}-'] {
+    background-color: var(--color-white); 
+		outline: 2px solid var(--color-white);
+  }
+}
 ${(iconFiles || []).map((file) => `.${iconName}-${file}{mask-image: url('${file}.svg');}\n.${imgName}-${file}{background-image: url('${file}.svg');}`).join('\n')}
 `;
 writeFileSync(`icons/${fileName}.css`, cssContent);

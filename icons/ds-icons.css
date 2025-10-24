@@ -23,6 +23,13 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 }
+@media (prefers-color-scheme: dark) {
+	[class^='ds-img-'],
+	[class*=' ds-img-'] {
+		background-color: var(--color-white);
+		outline: 2px solid var(--color-white);
+	}
+}
 .ds-icon-activity-heart {
 	mask-image: url('activity-heart.svg');
 }
