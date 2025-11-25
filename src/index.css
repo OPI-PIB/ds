@@ -14,7 +14,7 @@
 			--breakpoint-mobile: 23.375rem;
 			--breakpoint-tablet: 45rem;
 			--breakpoint-laptop: 75rem;
-			--breakpoint-full: 90rem;
+			--breakpoint-desktop: 90rem;
 		}
 
 		@theme {
@@ -25,7 +25,7 @@
 			--container-mobile: 23.375rem;
 			--container-tablet: 45rem;
 			--container-laptop: 75rem;
-			--container-full: 90rem;
+			--container-desktop: 90rem;
 		}
 
 		@theme {
@@ -403,7 +403,7 @@
 
 	@layer components {
 		.container {
-			@apply container tablet:gap-5 laptop:gap-6 gap-4 mx-auto;
+			@apply w-full laptop:max-w-laptop;
 		}
 
 		u,
