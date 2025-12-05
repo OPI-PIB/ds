@@ -8,6 +8,12 @@
 			--breakpoint-tablet: 45rem;
 			--breakpoint-laptop: 75rem;
 			--breakpoint-desktop: 90rem;
+			--radius-none: 0;
+			--radius-xs: 2px;
+			--radius-sm: 4px;
+			--radius-md: 6px;
+			--radius-lg: 8px;
+			--radius-xl: 12px;
 			--container-mobile: 23.375rem;
 			--container-tablet: 45rem;
 			--container-laptop: 75rem;
