@@ -147,6 +147,8 @@
 			--text-t1--line-height: 150%;
 			--text-t2--size: 0.875rem;
 			--text-t2--line-height: 150%;
+			--text-c--size: 0.75rem;
+			--text-c--line-height: 150%;
 		}
 
 		@media (width > 45rem) {
