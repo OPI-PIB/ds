@@ -4,7 +4,7 @@
 
 https://oklch.com/
 
-## Generator palet
+## Palette generator
 
 https://uicolors.app/generate
 
