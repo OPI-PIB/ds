@@ -333,9 +333,9 @@
 			line-height: var(--text-t2--line-height);
 			text-decoration-thickness: 8%;
 		}
-		.text-c {
+		.text-c-medium {
 			font-size: var(--text-c--size);
-			font-weight: var(--font-weight-regular);
+			font-weight: var(--font-weight-medium);
 			line-height: var(--text-c--line-height);
 		}
 	}
