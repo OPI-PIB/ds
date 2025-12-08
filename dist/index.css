@@ -171,6 +171,22 @@
 			--text-t2-medium: var(--text-t2--size);
 			--text-t2-regular: var(--text-t2--size);
 		}
+		@media (prefers-color-scheme: light) {
+			:root,
+			:host {
+				--color-neutral-50: oklch(14.52% 0.0021 286.13deg);
+				--color-neutral-100: oklch(35.03% 0.0086 285.95deg);
+				--color-neutral-200: oklch(38.38% 0.0085 276.94deg);
+				--color-neutral-300: oklch(41.58% 0.0132 285.81deg);
+				--color-neutral-400: oklch(46.63% 0.0145 280.77deg);
+				--color-neutral-500: oklch(52.02% 0.0172 281.64deg);
+				--color-neutral-600: oklch(61.49% 0.0152 276.91deg);
+				--color-neutral-700: oklch(74.9% 0.01 279.63deg);
+				--color-neutral-800: oklch(85.49% 0.0056 274.95deg);
+				--color-neutral-900: oklch(92.47% 0.0029 264.54deg);
+				--color-neutral-950: oklch(97.04% 0.0013 286.37deg);
+			}
+		}
 		:root,
 		:host {
 			--text-d1--size: 3rem;
