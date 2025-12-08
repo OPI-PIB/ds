@@ -396,6 +396,7 @@
 	@layer components {
 		.container {
 			width: 100%;
+			max-width: 100%;
 			@media (width >= 75rem) {
 				max-width: var(--container-laptop);
 			}

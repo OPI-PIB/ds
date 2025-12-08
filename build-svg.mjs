@@ -16,7 +16,7 @@ const cssContent = `
 	line-height: 1;
 	width: var(--ds-icon-size, 1em);
 	height: var(--ds-icon-size, 1em);
-	vertical-align: var(--ds-icon-vertical-align, text-bottom);
+	vertical-align: var(--ds-icon-vertical-align, baseline);
 	print-color-adjust: exact;
 	background-color: var(--ds-icon-color, currentColor);
 	mask-repeat: no-repeat;
@@ -29,7 +29,7 @@ const cssContent = `
 	line-height: 1;
 	width: var(--ds-icon-size, 1em);
 	height: var(--ds-icon-size, 1em);
-	vertical-align: var(--ds-icon-vertical-align, text-bottom);
+	vertical-align: var(--ds-icon-vertical-align, baseline);
 	print-color-adjust: exact;
 	background-position: center;
 	background-repeat: no-repeat;
