@@ -18,7 +18,7 @@ style.css
 @layer tw, ds;
 
 @import 'tailwindcss' layer(tw);
-@import '@opi_pib/ds' layer(ds);
+@import '@opi_pib/ds'; // automatic layer 'ds'
 ```
 
 or
@@ -35,7 +35,7 @@ style.css
 @layer tw, ds;
 
 @import 'tailwindcss' layer(tw);
-@import '@opi_pib/ds/tailwind' layer(ds);
+@import '@opi_pib/ds/tailwind' layer(ds); // automatic layer 'ds'
 ```
 
 ### Font
@@ -72,7 +72,7 @@ index.html
 or
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@opi_pib/ds@1.0.20/icons/ds-icons.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@opi_pib/ds@1.0.36/icons/ds-icons.css" />
 ```
 
 file.html
