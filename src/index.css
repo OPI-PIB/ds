@@ -462,7 +462,7 @@
 
 	@layer components {
 		.container {
-			@apply w-full laptop:max-w-laptop;
+			@apply w-full max-w-full laptop:max-w-laptop;
 		}
 
 		u,
