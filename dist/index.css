@@ -85,7 +85,7 @@
 			--color-neutral-900: oklch(35.03% 0.0086 285.95deg);
 			--color-neutral-950: oklch(14.52% 0.0021 286.13deg);
 			--color-focus-ring: oklch(55% 0.092 221.3deg);
-			--color-black: var(--color-neutral-950);
+			--color-black: oklch(14.52% 0.0021 286.13deg);
 			--color-white: #fff;
 			--disabled-text: var(--color-neutral-600);
 			--disabled-bg: var(--color-neutral-100);
@@ -185,8 +185,6 @@
 				--color-neutral-800: oklch(85.49% 0.0056 274.95deg);
 				--color-neutral-900: oklch(92.47% 0.0029 264.54deg);
 				--color-neutral-950: oklch(97.04% 0.0013 286.37deg);
-				--color-white: var(--color-neutral-50);
-				--color-black: white;
 			}
 		}
 		:root,
