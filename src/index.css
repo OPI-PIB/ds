@@ -165,7 +165,7 @@
 			--info-border-active: var(--color-info-400);
 		}
 
-		@media (prefers-color-scheme: light) {
+		@media (prefers-color-scheme: dark) {
 			:root,
 			:host {
 				--color-neutral-50: oklch(14.52% 0.0021 286.13deg);
@@ -179,6 +179,8 @@
 				--color-neutral-800: oklch(85.49% 0.0056 274.95deg);
 				--color-neutral-900: oklch(92.47% 0.0029 264.54deg);
 				--color-neutral-950: oklch(97.04% 0.0013 286.37deg);
+				--color-white: var(--color-neutral-950);
+				--color-black: white;
 			}
 		}
 
