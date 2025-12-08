@@ -179,7 +179,7 @@
 				--color-neutral-800: oklch(85.49% 0.0056 274.95deg);
 				--color-neutral-900: oklch(92.47% 0.0029 264.54deg);
 				--color-neutral-950: oklch(97.04% 0.0013 286.37deg);
-				--color-white: var(--color-neutral-950);
+				--color-white: var(--color-neutral-50);
 				--color-black: white;
 			}
 		}
