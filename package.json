@@ -1,6 +1,6 @@
 {
 	"name": "@opi_pib/ds",
-	"version": "1.0.40",
+	"version": "1.0.41",
 	"description": "Design system OPI PIB",
 	"style": "dist/index.css",
 	"files": [
