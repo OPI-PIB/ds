@@ -84,7 +84,7 @@
 			--color-neutral-800: light-dark(oklch(38.38% 0.0085 276.94deg), oklch(85.49% 0.0056 274.95deg));
 			--color-neutral-900: light-dark(oklch(35.03% 0.0086 285.95deg), oklch(92.47% 0.0029 264.54deg));
 			--color-neutral-950: light-dark(oklch(14.52% 0.0021 286.13deg), oklch(97.04% 0.0013 286.37deg));
-			--color-focus-ring: oklch(55% 0.092 221.3deg);
+			--color-focus-ring: light-dark(oklch(55% 0.092 221.3deg), oklch(97.04% 0.0013 286.37deg));
 			--color-black: oklch(14.52% 0.0021 286.13deg);
 			--color-white: #fff;
 			--font-sans:
