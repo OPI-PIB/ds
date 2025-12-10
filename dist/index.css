@@ -274,6 +274,12 @@
 			line-height: var(--text-b1--line-height);
 			text-decoration-thickness: 8%;
 		}
+		.text-b2-bold {
+			font-size: var(--text-b2--size);
+			font-weight: var(--font-weight-bold);
+			line-height: var(--text-b2--line-height);
+			text-decoration-thickness: 9%;
+		}
 		.text-b2-medium {
 			font-size: var(--text-b2--size);
 			font-weight: var(--font-weight-medium);
