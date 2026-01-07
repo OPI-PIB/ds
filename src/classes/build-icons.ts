@@ -11,10 +11,10 @@ export class IconsBuilder {
 		const iconsDir = join(PACKAGE_ROOT, 'icons');
 		const distIcons = join(dist, 'icons');
 
-		copyFileSync(join(PACKAGE_ROOT, 'dist', 'index.css'), dist);
+		copyFileSync(join(PACKAGE_ROOT, 'dist', 'index.css'), join(dist, 'index.css'));
 		console.log(`✅ Skopiowano plik index.css do katalogu: ${dist}`);
 
-		copyFileSync(join(PACKAGE_ROOT, 'src', 'index-prime.css'), dist);
+		copyFileSync(join(PACKAGE_ROOT, 'src', 'index-prime.css'), join(dist, 'index-prime.css'));
 		console.log(`✅ Skopiowano plik index-prime.css do katalogu: ${dist}`);
 
 		ensureDirSync(distIcons);
