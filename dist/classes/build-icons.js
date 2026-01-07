@@ -10,9 +10,15 @@ class IconsBuilder {
 		const PACKAGE_ROOT = (0, path_1.resolve)(__dirname, '..', '..');
 		const iconsDir = (0, path_1.join)(PACKAGE_ROOT, 'icons');
 		const distIcons = (0, path_1.join)(dist, 'icons');
-		(0, fs_extra_1.copyFileSync)((0, path_1.join)(PACKAGE_ROOT, 'dist', 'index.css'), dist);
+		(0, fs_extra_1.copyFileSync)(
+			(0, path_1.join)(PACKAGE_ROOT, 'dist', 'index.css'),
+			(0, path_1.join)(dist, 'index.css')
+		);
 		console.log(`✅ Skopiowano plik index.css do katalogu: ${dist}`);
-		(0, fs_extra_1.copyFileSync)((0, path_1.join)(PACKAGE_ROOT, 'src', 'index-prime.css'), dist);
+		(0, fs_extra_1.copyFileSync)(
+			(0, path_1.join)(PACKAGE_ROOT, 'src', 'index-prime.css'),
+			(0, path_1.join)(dist, 'index-prime.css')
+		);
 		console.log(`✅ Skopiowano plik index-prime.css do katalogu: ${dist}`);
 		(0, fs_extra_1.ensureDirSync)(distIcons);
 		const iconFiles = (0, fs_extra_1.readdirSync)(iconsDir).filter(
