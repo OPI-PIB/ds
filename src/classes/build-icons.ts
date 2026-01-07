@@ -1,4 +1,4 @@
-import { basename, extname, join } from 'path';
+import { basename, extname, join, resolve } from 'path';
 
 import { copyFileSync, ensureDirSync, readdirSync, writeFileSync } from 'fs-extra';
 
@@ -7,13 +7,14 @@ const imgName = 'ds-img';
 
 export class IconsBuilder {
 	static build(dist: string) {
-		const iconsDir = join(__dirname, 'icons');
+		const PACKAGE_ROOT = resolve(__dirname, '..', '..');
+		const iconsDir = join(PACKAGE_ROOT, 'icons');
 		const distIcons = join(dist, 'icons');
 
-		copyFileSync(join(__dirname, 'dist', 'index.css'), dist);
+		copyFileSync(join(PACKAGE_ROOT, 'dist', 'index.css'), dist);
 		console.log(`✅ Skopiowano plik index.css do katalogu: ${dist}`);
 
-		copyFileSync(join(__dirname, 'src', 'index-prime.css'), dist);
+		copyFileSync(join(PACKAGE_ROOT, 'src', 'index-prime.css'), dist);
 		console.log(`✅ Skopiowano plik index-prime.css do katalogu: ${dist}`);
 
 		ensureDirSync(distIcons);
