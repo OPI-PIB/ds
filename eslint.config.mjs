@@ -1,4 +1,22 @@
-import { js } from '@opi_pib/eslint-config-base';
+import { js, ts } from '@opi_pib/eslint-config-base';
+
+const ignores = ['dist/**', 'icons/**'];
 
 /** @type {import("eslint").Linter.Config[]} */
-export default js;
+export default [
+	{
+		...js,
+		ignores
+	},
+	{
+		...ts,
+		ignores,
+		languageOptions: {
+			...ts.languageOptions,
+			parserOptions: {
+				...ts.languageOptions.parserOptions,
+				project: ['tsconfig.json', 'tsconfig.spec.json']
+			}
+		}
+	}
+];

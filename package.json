@@ -1,6 +1,6 @@
 {
 	"name": "@opi_pib/ds",
-	"version": "1.0.44",
+	"version": "2.0.0",
 	"description": "Design system OPI PIB",
 	"style": "dist/index.css",
 	"files": [
@@ -20,9 +20,8 @@
 	},
 	"scripts": {
 		"prepare": "husky",
-		"test": "node --test tests/**/*.spec.mjs",
-		"build:css": "tailwindcss -i=src/index.css -o=dist/index.css",
-		"build:svg": "node build-svg.mjs"
+		"build": "tsc",
+		"build:css": "tailwindcss -i=src/index-prime.css -o=dist/index.css"
 	},
 	"lint-staged": {
 		"*.css": "stylelint src/**/*.css --fix",
@@ -31,13 +30,20 @@
 	"author": "Dawid Lubowiecki",
 	"license": "MIT",
 	"prettier": "@opi_pib/prettier-config-base",
+	"dependencies": {
+		"fs-extra": "^11.0.0",
+		"yargs": "^18.0.0"
+	},
 	"devDependencies": {
 		"@opi_pib/eslint-config-base": "^9.0.0",
 		"@opi_pib/prettier-config-base": "^1.0.0",
 		"@opi_pib/stylelint-config-base": "^1.0.0",
 		"@tailwindcss/cli": "^4.0.0",
+		"@types/fs-extra": "^11.0.0",
+		"@types/yargs": "^17.0.0",
 		"husky": "^9.0.0",
-		"lint-staged": "^16.0.0"
+		"lint-staged": "^16.0.0",
+		"typescript": "^5.0.0"
 	},
 	"homepage": "https://github.com/OPI-PIB/ds#readme",
 	"repository": {
